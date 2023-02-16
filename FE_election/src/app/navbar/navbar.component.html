@@ -1,12 +1,12 @@
-<mat-toolbar color="primary">
+<mat-toolbar color="primary" class="mat-elevation-z10">
 
-    <span>Home</span>
+    <span><mat-icon>input</mat-icon>Home</span>
 
-    <div class="spacer">
-        <a mat-button>Etudiant</a>
-        <a mat-button>Candidateur</a>
-        <a mat-button>Centre_vote</a>
-        <a mat-button>Singn Up</a>
-    </div>
+    <div class="spacer"></div>
+    <a mat-button routerLink="etudiant">Etudiant</a>
+    <a mat-button routerLink="candidateur">Candidateur</a>
+    <a mat-button routerLink="centre_vote">Centre_vote</a>
+    <a mat-raised-button color="accent" routerLink="sign up">Sign Up</a>
+
 
 </mat-toolbar>
